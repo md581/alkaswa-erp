@@ -1,0 +1,27 @@
+[
+  {
+    "id": "b-01",
+    "customerId": "c-01",
+    "propertyId": "prop-404",
+    "unitName": "Suite 12A - Business Bay",
+    "bookingDate": "2026-06-15T08:00:00Z",
+    "totalPrice": 1200000,
+    "status": "Confirmed"
+  },
+  {
+    "id": "b-02",
+    "customerId": "c-02",
+    "propertyId": "prop-501",
+    "unitName": "Villa 18 - Jumeirah Dunes",
+    "bookingDate": "2026-07-01T11:30:00Z",
+    "totalPrice": 3500000,
+    "status": "Pending"
+  },
+  {
+    "customerId": "CUST-101",
+    "unitNo": "A-402 (Grand Tower)",
+    "price": 12500000,
+    "status": "Confirmed",
+    "id": "b-1786107717217"
+  }
+]

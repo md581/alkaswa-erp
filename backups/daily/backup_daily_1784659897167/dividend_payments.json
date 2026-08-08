@@ -1,0 +1,25 @@
+[
+  {
+    "id": "divp1",
+    "dividendNo": "DIV-2025-Q4",
+    "investorId": "inv1",
+    "period": "Q4 2025",
+    "declaredDate": "2026-01-10",
+    "payableAmount": 5625000,
+    "paidAmount": 5625000,
+    "balance": 0,
+    "paymentDate": "2026-01-25",
+    "status": "Paid"
+  },
+  {
+    "id": "divp2",
+    "dividendNo": "DIV-2026-Q1",
+    "investorId": "inv1",
+    "period": "Q1 2026",
+    "declaredDate": "2026-04-12",
+    "payableAmount": 750000,
+    "paidAmount": 0,
+    "balance": 750000,
+    "status": "Approved"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "nt-1",
+    "companyId": "c1",
+    "branchId": "b1",
+    "customerId": "cst-usr-1",
+    "noteText": "Customer is extremely punctual about payments. Prefers bank transfers on the 10th of every month.",
+    "createdAt": "2026-05-15T09:00:00Z",
+    "createdBy": "u-fnd",
+    "isDeleted": false
+  }
+]

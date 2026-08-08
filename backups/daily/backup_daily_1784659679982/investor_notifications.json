@@ -1,0 +1,29 @@
+[
+  {
+    "id": "in1",
+    "investorId": "inv1",
+    "title": "Q1 2026 Dividend Declared",
+    "message": "AL KASWA HOLDINGS LIMITED has approved a 15% dividend payout for Q1 2026. Your payable share is BDT 7,50,000.",
+    "type": "Dividend Announcement",
+    "isRead": false,
+    "createdAt": "2026-04-12T10:00:00Z"
+  },
+  {
+    "id": "in2",
+    "investorId": "inv1",
+    "title": "Roof Slab Casting Complete - Uttara Skyline",
+    "message": "The 10th floor roof slab casting of Al Kaswa Uttara Skyline has been successfully completed. High-strength concrete testing certified by BUET.",
+    "type": "Project Update",
+    "isRead": false,
+    "createdAt": "2026-06-28T14:30:00Z"
+  },
+  {
+    "id": "in3",
+    "investorId": "inv1",
+    "title": "Holding Company Expansion Plan",
+    "message": "Al Kaswa Holdings announces structural diversification into deep dredging and future energy infrastructure joint ventures.",
+    "type": "Company Announcement",
+    "isRead": true,
+    "createdAt": "2025-05-01T09:00:00Z"
+  }
+]

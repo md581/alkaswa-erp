@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-07-18T12:46:35.834Z",
+  "status": "SUCCESS",
+  "postgresActive": true,
+  "synchronizedFiles": 17,
+  "matchedRecordCounts": true,
+  "files": [
+    {
+      "file": "auditLogsDb.json",
+      "localRecords": 3,
+      "postgresSynced": true,
+      "postgresRecordCount": 3
+    },
+    {
+      "file": "dividend_declarations.json",
+      "localRecords": 2,
+      "postgresSynced": true,
+      "postgresRecordCount": 2
+    },
+    {
+      "file": "dividend_payments.json",
+      "localRecords": 2,
+      "postgresSynced": true,
+      "postgresRecordCount": 2
+    },
+    {
+      "file": "executive_alerts.json",
+      "localRecords": 1,
+      "postgresSynced": true,
+      "postgresRecordCount": 1
+    },
+    {
+      "file": "investment_transactions.json",
+      "localRecords": 3,
+      "postgresSynced": true,
+      "postgresRecordCount": 3
+    },
+    {
+      "file": "investor_documents.json",
+      "localRecords": 3,
+      "postgresSynced": true,
+      "postgresRecordCount": 3
+    },
+    {
+      "file": "investor_notifications.json",
+      "localRecords": 3,
+      "postgresSynced": true,
+      "postgresRecordCount": 3
+    },
+    {
+      "file": "investor_portfolios.json",
+      "localRecords": 3,
+      "postgresSynced": true,
+      "postgresRecordCount": 3
+    },
+    {
+      "file": "investor_profiles.json",
+      "localRecords": 2,
+      "postgresSynced": true,
+      "postgresRecordCount": 2
+    },
+    {
+      "file": "profilesDb.json",
+      "localRecords": 19,
+      "postgresSynced": true,
+      "postgresRecordCount": 19
+    },
+    {
+      "file": "refreshTokensDb.json",
+      "localRecords": 11,
+      "postgresSynced": true,
+      "postgresRecordCount": 11
+    },
+    {
+      "file": "salesBookingsDb.json",
+      "localRecords": 2,
+      "postgresSynced": true,
+      "postgresRecordCount": 2
+    },
+    {
+      "file": "salesCustomersDb.json",
+      "localRecords": 2,
+      "postgresSynced": true,
+      "postgresRecordCount": 2
+    },
+    {
+      "file": "salesInstallmentsDb.json",
+      "localRecords": 3,
+      "postgresSynced": true,
+      "postgresRecordCount": 3
+    },
+    {
+      "file": "salesPaymentsDb.json",
+      "localRecords": 1,
+      "postgresSynced": true,
+      "postgresRecordCount": 1
+    },
+    {
+      "file": "usersDb.json",
+      "localRecords": 19,
+      "postgresSynced": true,
+      "postgresRecordCount": 19
+    },
+    {
+      "file": "withdrawal_requests.json",
+      "localRecords": 1,
+      "postgresSynced": true,
+      "postgresRecordCount": 1
+    }
+  ]
+}

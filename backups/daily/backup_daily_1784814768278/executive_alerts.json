@@ -1,0 +1,155 @@
+[
+  {
+    "id": "alert-1784814766020",
+    "category": "Budget",
+    "message": "Backup Integrity Failure",
+    "details": "Startup protection failed verification check on backup backup_daily_1784711718265. Error: Checksum verification failed for backup ID: backup_daily_1784711718265",
+    "severity": "Critical",
+    "date": "2026-07-23",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784814766018",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-23",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784814765145",
+    "category": "Budget",
+    "message": "Database Self-Healing Failure",
+    "details": "Startup integrity checks detected corruption, but automated recovery failed: incorrect header check",
+    "severity": "Critical",
+    "date": "2026-07-23",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784711646163",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784711645366",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784711331633.",
+    "severity": "Warning",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784711329329",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784711328541",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784711305563.",
+    "severity": "Warning",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784711303598",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784711303042",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784710631824.",
+    "severity": "Warning",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710629446",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710628984",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784710621738.",
+    "severity": "Warning",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710619647",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710619055",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784710040453.",
+    "severity": "Warning",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710038018",
+    "category": "Budget",
+    "message": "Backup Integrity Failure",
+    "details": "Startup protection failed verification check on backup backup_daily_1784660261556. Error: Checksum verification failed for backup ID: backup_daily_1784660261556",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710038016",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784710037192",
+    "category": "Budget",
+    "message": "Database Self-Healing Failure",
+    "details": "Startup integrity checks detected corruption, but automated recovery failed: incorrect header check",
+    "severity": "Critical",
+    "date": "2026-07-22",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784377964657",
+    "category": "Budget",
+    "message": "Backup Integrity Failure",
+    "details": "Startup protection failed verification check on backup backup_daily_1784286111241. Error: Checksum verification failed for backup ID: backup_daily_1784286111241",
+    "severity": "Critical",
+    "date": "2026-07-18",
+    "isResolved": false
+  }
+]

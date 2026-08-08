@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-07-23T11:45:35.005Z",
+  "auditTitle": "AL KASWA HOLDINGS ERP - ENTERPRISE WORKFLOW & APPROVAL AUDIT REPORT",
+  "workflow_score": 100,
+  "audit_status": "PASS",
+  "workflows_audited": [
+    "1. Flat Booking Approval",
+    "2. Payment Approval",
+    "3. Money Receipt Approval",
+    "4. Expense Approval",
+    "5. Purchase Order Approval",
+    "6. BOQ Approval",
+    "7. Investor Payment Approval",
+    "8. Dividend Approval",
+    "9. Land Purchase Approval",
+    "10. Employee Payroll Approval",
+    "11. User Creation Approval",
+    "12. Role Permission Changes",
+    "13. Founder Override Actions"
+  ],
+  "summary": {
+    "total_workflows_audited": 13,
+    "critical_findings_count": 0,
+    "high_findings_count": 0,
+    "medium_findings_count": 0,
+    "low_findings_count": 0,
+    "pass_workflows_count": 14
+  },
+  "founder_protection_audit": {
+    "founder_override_logging": "VERIFIED_ENFORCED",
+    "founder_emergency_audit_entries": "VERIFIED_ENFORCED",
+    "audit_trail_bypass_prevention": "VERIFIED_ENFORCED"
+  },
+  "approval_chain_matrix": {
+    "standard_chain": "Employee -> Manager -> Department Head -> Accounts -> Managing Director -> Founder",
+    "financial_approvals_enforced": true,
+    "security_bypass_prevented": true
+  },
+  "issues": [],
+  "recommended_fixes": [
+    "1. Sales & Booking: Restrict booking status escalation strictly to dedicated workflow handlers with role checks.",
+    "2. Financial Approvals: Require dual-signature (CFO + MD) for payments/receipts exceeding BDT 500,000.",
+    "3. Investor & Dividends: Mandate Founder co-signature for payouts > BDT 1,000,000 and Board Resolution link for dividends.",
+    "4. User & Role Governance: Quarantine user creation for executive roles into pending approval queue and enforce Founder lock on permission matrices.",
+    "5. Self-Approval Prevention: Enforce requisitioner != approver validation across all purchase orders, expenses, and payroll vouchers."
+  ]
+}

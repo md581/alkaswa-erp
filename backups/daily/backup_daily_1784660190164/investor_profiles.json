@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ip1",
+    "investorId": "inv1",
+    "nameEn": "Engr. Md. Rahim",
+    "nameBn": "ইঞ্জিনিয়ার মো: রহিম",
+    "investorCode": "INV-2026-089",
+    "totalInvestedAmount": 45000000,
+    "currentPortfolioValue": 51250000,
+    "totalDividendsReceived": 5625000,
+    "pendingDividend": 750000,
+    "activeProjectsCount": 3,
+    "portfolioGrowthPercent": 13.89,
+    "roiPercent": 12.5
+  },
+  {
+    "id": "ip2",
+    "investorId": "inv2",
+    "nameEn": "Al Kaswa Holdings Founder (Admin)",
+    "nameBn": "আল কাসওয়া হোল্ডিংস ফাউন্ডার",
+    "investorCode": "INV-ADM-001",
+    "totalInvestedAmount": 120000000,
+    "currentPortfolioValue": 142000000,
+    "totalDividendsReceived": 14500000,
+    "pendingDividend": 0,
+    "activeProjectsCount": 4,
+    "portfolioGrowthPercent": 18.33,
+    "roiPercent": 15.2
+  }
+]

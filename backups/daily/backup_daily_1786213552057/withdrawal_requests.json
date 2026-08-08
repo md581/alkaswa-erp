@@ -1,0 +1,12 @@
+[
+  {
+    "id": "req1",
+    "investorId": "inv1",
+    "requestNo": "WTH-2026-001",
+    "amount": 2500000,
+    "reason": "Personal portfolio reallocation",
+    "requestDate": "2026-06-15",
+    "status": "Under Review",
+    "remarks": "Awaiting board resolution audit approval."
+  }
+]

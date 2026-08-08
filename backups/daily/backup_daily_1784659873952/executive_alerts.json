@@ -1,0 +1,128 @@
+[
+  {
+    "id": "alert-1784659660023",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659659401",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784659632196.",
+    "severity": "Warning",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659462254",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659461403",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784659286583.",
+    "severity": "Warning",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659284311",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659283430",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784659022919.",
+    "severity": "Warning",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659020796",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784659020033",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784658515880.",
+    "severity": "Warning",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784658513676",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784658513016",
+    "category": "Budget",
+    "message": "Automated Database Self-Healing Triggered",
+    "details": "Startup integrity checks detected corruption or missing files. The system self-healed and restored all stores to perfect state from backup backup_daily_1784658070189.",
+    "severity": "Warning",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784658068377",
+    "category": "Budget",
+    "message": "Backup Integrity Failure",
+    "details": "Startup protection failed verification check on backup backup_daily_1784378795794. Error: Checksum verification failed for backup ID: backup_daily_1784378795794",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784658068373",
+    "category": "Budget",
+    "message": "Google Cloud Storage Connectivity Failure",
+    "details": "The system failed to connect to GCS bucket 'alkaswa-holdings-production-vault'. Error: Google Cloud Storage bucket 'alkaswa-holdings-production-vault' does not exist or is inaccessible.",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784658067575",
+    "category": "Budget",
+    "message": "Database Self-Healing Failure",
+    "details": "Startup integrity checks detected corruption, but automated recovery failed: incorrect header check",
+    "severity": "Critical",
+    "date": "2026-07-21",
+    "isResolved": false
+  },
+  {
+    "id": "alert-1784377964657",
+    "category": "Budget",
+    "message": "Backup Integrity Failure",
+    "details": "Startup protection failed verification check on backup backup_daily_1784286111241. Error: Checksum verification failed for backup ID: backup_daily_1784286111241",
+    "severity": "Critical",
+    "date": "2026-07-18",
+    "isResolved": false
+  }
+]

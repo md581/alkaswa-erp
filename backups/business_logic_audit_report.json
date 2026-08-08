@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-22T09:25:39.305Z",
+  "auditTitle": "AL KASWA HOLDINGS ERP - ENTERPRISE BUSINESS LOGIC AUDIT REPORT",
+  "business_logic_score": 85,
+  "audit_status": "WARNING",
+  "modules_audited": [
+    "1. Sales & Booking",
+    "2. Customer Management",
+    "3. Flat / Plot Inventory",
+    "4. Payment Collection",
+    "5. Money Receipts",
+    "6. Installments",
+    "7. Investor Management",
+    "8. Land Owner Management",
+    "9. Expense Management",
+    "10. Accounting & Ledger",
+    "11. Construction BOQ",
+    "12. Procurement",
+    "13. HR & Payroll"
+  ],
+  "summary": {
+    "total_records_audited": 18,
+    "critical_findings_count": 0,
+    "high_findings_count": 0,
+    "medium_findings_count": 3,
+    "low_findings_count": 0,
+    "pass_modules_count": 11
+  },
+  "critical_findings": [],
+  "all_issues": [
+    {
+      "Module": "6. Installments",
+      "Severity": "MEDIUM",
+      "Record ID": "b-01",
+      "Root Cause": "Installment schedule total BDT 600,000 does not match remaining booking balance BDT 1,200,000.",
+      "Recommended Fix": "Re-calculate installment schedule breakdown upon booking agreement modification."
+    },
+    {
+      "Module": "6. Installments",
+      "Severity": "MEDIUM",
+      "Record ID": "b-02",
+      "Root Cause": "Installment schedule total BDT 875,000 does not match remaining booking balance BDT 3,500,000.",
+      "Recommended Fix": "Re-calculate installment schedule breakdown upon booking agreement modification."
+    },
+    {
+      "Module": "9. Expense Management",
+      "Severity": "MEDIUM",
+      "Record ID": "p-01",
+      "Root Cause": "Cleared payment 'p-01' does not have a corresponding money receipt or linked general ledger voucher entry.",
+      "Recommended Fix": "Automate atomic transaction link between payment collection clearing and general ledger double-entry voucher generation."
+    }
+  ],
+  "module_scores": {
+    "1. Sales & Booking": 100,
+    "2. Customer Management": 100,
+    "3. Flat / Plot Inventory": 100,
+    "4. Payment Collection": 100,
+    "5. Money Receipts": 100,
+    "6. Installments": 90,
+    "7. Investor Management": 100,
+    "8. Land Owner Management": 100,
+    "9. Expense Management": 95,
+    "10. Accounting & Ledger": 100,
+    "11. Construction BOQ": 100,
+    "12. Procurement": 100,
+    "13. HR & Payroll": 100
+  },
+  "recommended_fixes": [
+    "1. Sales & Booking: Implement database-level UNIQUE constraints on active unit bookings.",
+    "2. Customer & Payment: Enforce real-time payment cap validation against agreed booking prices.",
+    "3. Inventory: Automate unit status transition to 'Available' upon booking cancellation.",
+    "4. Accounting & Ledger: Enforce double-entry debit-credit balancing middleware prior to voucher posting.",
+    "5. Investor Management: Synchronize portfolio capital balances dynamically with investment transactions.",
+    "6. Land Owner Management: Validate JVA revenue/unit allocation shares sum strictly to 100%."
+  ]
+}

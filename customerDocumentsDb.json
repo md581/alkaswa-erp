@@ -1,0 +1,15 @@
+[
+  {
+    "id": "doc-1",
+    "companyId": "c1",
+    "branchId": "b1",
+    "customerId": "cst-usr-1",
+    "title": "Customer NID Card",
+    "category": "NID",
+    "fileUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+    "uploadedBy": "u-fnd",
+    "isDeleted": false,
+    "createdAt": "2026-05-15T08:30:00Z",
+    "updatedAt": "2026-05-15T08:30:00Z"
+  }
+]

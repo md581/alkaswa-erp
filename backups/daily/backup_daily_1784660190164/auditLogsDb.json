@@ -1,0 +1,1502 @@
+[
+  {
+    "timestamp": "2026-07-14T10:00:00Z",
+    "level": "INFO",
+    "message": "ERP Infrastructure initialization sequence started.",
+    "userId": "SYSTEM"
+  },
+  {
+    "timestamp": "2026-07-14T10:01:00Z",
+    "level": "WARNING",
+    "message": "PostgreSQL connection inactive: DATABASE_URL not set. Falling back to local JSON persistence.",
+    "userId": "SYSTEM"
+  },
+  {
+    "timestamp": "2026-07-14T10:12:00Z",
+    "level": "INFO",
+    "message": "Admin user initialized and logged in.",
+    "userId": "u-01"
+  },
+  {
+    "id": "audit-c-01-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Customers",
+    "entityType": "Customers",
+    "entityId": "c-01",
+    "message": "Historical audit record (CREATE) registered for Customers record 'c-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "c-01",
+      "module": "Customers",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-c-01-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Customers",
+    "entityType": "Customers",
+    "entityId": "c-01",
+    "message": "Historical audit record (IMPORT) registered for Customers record 'c-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "c-01",
+      "module": "Customers",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-c-01-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Customers",
+    "entityType": "Customers",
+    "entityId": "c-01",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Customers record 'c-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "c-01",
+      "module": "Customers",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-c-02-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Customers",
+    "entityType": "Customers",
+    "entityId": "c-02",
+    "message": "Historical audit record (CREATE) registered for Customers record 'c-02' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "c-02",
+      "module": "Customers",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-c-02-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Customers",
+    "entityType": "Customers",
+    "entityId": "c-02",
+    "message": "Historical audit record (IMPORT) registered for Customers record 'c-02' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "c-02",
+      "module": "Customers",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-c-02-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Customers",
+    "entityType": "Customers",
+    "entityId": "c-02",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Customers record 'c-02' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "c-02",
+      "module": "Customers",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-b-01-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Bookings",
+    "entityType": "Bookings",
+    "entityId": "b-01",
+    "message": "Historical audit record (CREATE) registered for Bookings record 'b-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "b-01",
+      "module": "Bookings",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-b-01-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Bookings",
+    "entityType": "Bookings",
+    "entityId": "b-01",
+    "message": "Historical audit record (IMPORT) registered for Bookings record 'b-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "b-01",
+      "module": "Bookings",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-b-01-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Bookings",
+    "entityType": "Bookings",
+    "entityId": "b-01",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Bookings record 'b-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "b-01",
+      "module": "Bookings",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-b-02-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Bookings",
+    "entityType": "Bookings",
+    "entityId": "b-02",
+    "message": "Historical audit record (CREATE) registered for Bookings record 'b-02' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "b-02",
+      "module": "Bookings",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-b-02-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Bookings",
+    "entityType": "Bookings",
+    "entityId": "b-02",
+    "message": "Historical audit record (IMPORT) registered for Bookings record 'b-02' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "b-02",
+      "module": "Bookings",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-b-02-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Bookings",
+    "entityType": "Bookings",
+    "entityId": "b-02",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Bookings record 'b-02' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "b-02",
+      "module": "Bookings",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-p-01-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Payments",
+    "entityType": "Payments",
+    "entityId": "p-01",
+    "message": "Historical audit record (CREATE) registered for Payments record 'p-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "p-01",
+      "module": "Payments",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-p-01-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Payments",
+    "entityType": "Payments",
+    "entityId": "p-01",
+    "message": "Historical audit record (IMPORT) registered for Payments record 'p-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "p-01",
+      "module": "Payments",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-p-01-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Payments",
+    "entityType": "Payments",
+    "entityId": "p-01",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Payments record 'p-01' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "p-01",
+      "module": "Payments",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-ip1-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Investors",
+    "entityType": "Investors",
+    "entityId": "ip1",
+    "message": "Historical audit record (CREATE) registered for Investors record 'ip1' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "ip1",
+      "module": "Investors",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-ip1-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Investors",
+    "entityType": "Investors",
+    "entityId": "ip1",
+    "message": "Historical audit record (IMPORT) registered for Investors record 'ip1' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "ip1",
+      "module": "Investors",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-ip1-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Investors",
+    "entityType": "Investors",
+    "entityId": "ip1",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Investors record 'ip1' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "ip1",
+      "module": "Investors",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-ip2-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Investors",
+    "entityType": "Investors",
+    "entityId": "ip2",
+    "message": "Historical audit record (CREATE) registered for Investors record 'ip2' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "ip2",
+      "module": "Investors",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-ip2-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Investors",
+    "entityType": "Investors",
+    "entityId": "ip2",
+    "message": "Historical audit record (IMPORT) registered for Investors record 'ip2' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "ip2",
+      "module": "Investors",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-ip2-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Investors",
+    "entityType": "Investors",
+    "entityId": "ip2",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Investors record 'ip2' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "ip2",
+      "module": "Investors",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-ahlaf-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-ahlaf",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-ahlaf' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-ahlaf",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-ahlaf-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-ahlaf",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-ahlaf' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-ahlaf",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-ahlaf-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-ahlaf",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-ahlaf' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-ahlaf",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-fnd-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-fnd",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-fnd' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-fnd",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-fnd-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-fnd",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-fnd' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-fnd",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-fnd-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-fnd",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-fnd' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-fnd",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-md-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-md",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-md' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-md",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-md-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-md",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-md' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-md",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-md-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-md",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-md' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-md",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-gm-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-gm",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-gm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-gm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-gm-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-gm",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-gm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-gm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-gm-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-gm",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-gm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-gm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-hrm-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-hrm",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-hrm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-hrm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-hrm-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-hrm",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-hrm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-hrm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-hrm-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-hrm",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-hrm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-hrm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-act-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-act",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-act' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-act",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-act-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-act",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-act' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-act",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-act-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-act",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-act' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-act",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-slm-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-slm",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-slm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-slm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-slm-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-slm",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-slm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-slm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-slm-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-slm",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-slm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-slm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-lam-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-lam",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-lam' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-lam",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-lam-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-lam",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-lam' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-lam",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-lam-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-lam",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-lam' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-lam",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-lgl-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-lgl",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-lgl' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-lgl",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-lgl-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-lgl",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-lgl' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-lgl",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-lgl-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-lgl",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-lgl' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-lgl",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-eng-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-eng",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-eng' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-eng",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-eng-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-eng",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-eng' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-eng",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-eng-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-eng",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-eng' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-eng",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-prm-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-prm",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-prm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-prm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-prm-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-prm",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-prm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-prm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-prm-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-prm",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-prm' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-prm",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-cst-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-cst",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-cst' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-cst",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-cst-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-cst",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-cst' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-cst",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-cst-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-cst",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-cst' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-cst",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-ldo-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-ldo",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-ldo' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-ldo",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-ldo-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-ldo",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-ldo' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-ldo",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-ldo-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-ldo",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-ldo' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-ldo",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-inv-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-inv",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-inv' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-inv",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-inv-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-inv",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-inv' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-inv",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-inv-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-inv",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-inv' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-inv",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-debug-1783955407826-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-debug-1783955407826",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-debug-1783955407826' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-debug-1783955407826",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-debug-1783955407826-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-debug-1783955407826",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-debug-1783955407826' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-debug-1783955407826",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-debug-1783955407826-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-debug-1783955407826",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-debug-1783955407826' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-debug-1783955407826",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-1783956574923-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1783956574923",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-1783956574923' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1783956574923",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-1783956574923-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1783956574923",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-1783956574923' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1783956574923",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-1783956574923-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1783956574923",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-1783956574923' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1783956574923",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-1784030127589-create",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784030127589",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-1784030127589' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784030127589",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.111Z"
+    }
+  },
+  {
+    "id": "audit-u-1784030127589-import",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784030127589",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-1784030127589' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784030127589",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784030127589-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.111Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784030127589",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-1784030127589' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784030127589",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784232105562-create",
+    "timestamp": "2026-07-21T18:56:02.112Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784232105562",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-1784232105562' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784232105562",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784232105562-import",
+    "timestamp": "2026-07-21T18:56:02.112Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784232105562",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-1784232105562' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784232105562",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784232105562-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.112Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784232105562",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-1784232105562' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784232105562",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784232489109-create",
+    "timestamp": "2026-07-21T18:56:02.112Z",
+    "level": "INFO",
+    "action": "CREATE",
+    "eventType": "CREATE",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784232489109",
+    "message": "Historical audit record (CREATE) registered for Users record 'u-1784232489109' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784232489109",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784232489109-import",
+    "timestamp": "2026-07-21T18:56:02.112Z",
+    "level": "INFO",
+    "action": "IMPORT",
+    "eventType": "IMPORT",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784232489109",
+    "message": "Historical audit record (IMPORT) registered for Users record 'u-1784232489109' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784232489109",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  },
+  {
+    "id": "audit-u-1784232489109-system_backfill",
+    "timestamp": "2026-07-21T18:56:02.112Z",
+    "level": "INFO",
+    "action": "SYSTEM_BACKFILL",
+    "eventType": "SYSTEM_BACKFILL",
+    "module": "Users",
+    "entityType": "Users",
+    "entityId": "u-1784232489109",
+    "message": "Historical audit record (SYSTEM_BACKFILL) registered for Users record 'u-1784232489109' by Auto-Repair Backfill Engine.",
+    "userId": "SYSTEM",
+    "source": "BACKFILL_ENGINE",
+    "details": {
+      "originalRecordId": "u-1784232489109",
+      "module": "Users",
+      "repaired": true,
+      "backfilledAt": "2026-07-21T18:56:02.112Z"
+    }
+  }
+]

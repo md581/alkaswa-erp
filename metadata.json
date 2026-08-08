@@ -1,0 +1,6 @@
+{
+  "name": "Al Kaswa ERP",
+  "description": "Al Kaswa Holdings ERP Infrastructure Recovery System",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

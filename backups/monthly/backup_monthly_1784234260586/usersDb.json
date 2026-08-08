@@ -1,0 +1,110 @@
+[
+  {
+    "id": "u-ahlaf",
+    "email": "ahlaftravelstour@gmail.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "FND"
+  },
+  {
+    "id": "u-fnd",
+    "email": "founder@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "FND"
+  },
+  {
+    "id": "u-md",
+    "email": "md@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "MD"
+  },
+  {
+    "id": "u-gm",
+    "email": "gm@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "GM"
+  },
+  {
+    "id": "u-hrm",
+    "email": "hrm@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "HRM"
+  },
+  {
+    "id": "u-act",
+    "email": "act@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "ACT"
+  },
+  {
+    "id": "u-slm",
+    "email": "slm@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "SLM"
+  },
+  {
+    "id": "u-lam",
+    "email": "lam@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "LAM"
+  },
+  {
+    "id": "u-lgl",
+    "email": "lgl@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "LGL"
+  },
+  {
+    "id": "u-eng",
+    "email": "eng@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "ENG"
+  },
+  {
+    "id": "u-prm",
+    "email": "prm@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "PRM"
+  },
+  {
+    "id": "u-cst",
+    "email": "customer@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "CST"
+  },
+  {
+    "id": "u-ldo",
+    "email": "landowner@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "LDO"
+  },
+  {
+    "id": "u-inv",
+    "email": "investor@alkaswa.com",
+    "passwordHash": "$2b$10$6GBw1vKgkRtBma/HBMkpCOpiGBcvQezx0ndLekK75artljar4e7Mq",
+    "role": "INV"
+  },
+  {
+    "id": "u-debug-1783955407826",
+    "email": "debug@test.com",
+    "passwordHash": "$2b$10$9vywnuIopRmE2WEgo0c0QOeKJaJHm.CZYk0cvkfbUJokkuGQNx52u",
+    "role": "CST"
+  },
+  {
+    "id": "u-1783956574923",
+    "email": "sim-1783956574898@alkaswa.com",
+    "passwordHash": "$2b$10$XZ8aEyJzQBYs8wdJy3Qpkeb4nu1eacvGf324yWpaqiXcMyulscdGi",
+    "role": "CST"
+  },
+  {
+    "id": "u-1784030127589",
+    "email": "test_cust_1784030127492@alkaswa.com",
+    "passwordHash": "$2b$10$dngHGw.EFmS7lvMnAL.1re5N23yYyGvakLalFlxAnreZ388yyY2fK",
+    "role": "CST"
+  },
+  {
+    "id": "u-1784232105562",
+    "email": "testverification@alkaswa.com",
+    "passwordHash": "$2b$10$L8tCuiF2jtQ52UT1o336WORICkl4OOlAjfAaho8TA9Tn68AePRqsW",
+    "role": "FND"
+  }
+]

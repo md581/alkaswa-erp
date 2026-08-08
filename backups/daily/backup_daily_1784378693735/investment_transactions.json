@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tx1",
+    "investorId": "inv1",
+    "transactionNo": "TXN-INV-1001",
+    "transactionDate": "2025-01-15",
+    "projectId": "p1",
+    "projectName": "Al Kaswa Uttara Skyline",
+    "type": "Capital Inflow",
+    "amountBdt": 15000000,
+    "paymentMode": "Bank Transfer",
+    "bankName": "City Bank Ltd",
+    "instrumentNo": "FT-9982312",
+    "status": "Cleared"
+  },
+  {
+    "id": "tx2",
+    "investorId": "inv1",
+    "transactionNo": "TXN-INV-1022",
+    "transactionDate": "2025-05-10",
+    "projectId": "p2",
+    "projectName": "Al Kaswa Dhanmondi Imperial",
+    "type": "Capital Inflow",
+    "amountBdt": 20000000,
+    "paymentMode": "Bank Transfer",
+    "bankName": "Dhaka Bank PLC",
+    "instrumentNo": "CHQ-882312",
+    "status": "Cleared"
+  },
+  {
+    "id": "tx3",
+    "investorId": "inv1",
+    "transactionNo": "TXN-INV-1055",
+    "transactionDate": "2026-02-18",
+    "projectId": "p3",
+    "projectName": "Al Kaswa Gulshan Serene",
+    "type": "Capital Inflow",
+    "amountBdt": 10000000,
+    "paymentMode": "Bank Transfer",
+    "bankName": "Mutual Trust Bank",
+    "instrumentNo": "FT-551239",
+    "status": "Cleared"
+  }
+]

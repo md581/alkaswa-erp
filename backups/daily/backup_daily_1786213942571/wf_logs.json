@@ -1,0 +1,53 @@
+[
+  {
+    "id": "wf-cf-1784807134999",
+    "workflowName": "Cash Flow Forecast Engine",
+    "recordId": "CF-12M-1784807134999",
+    "userId": "FND-001",
+    "role": "FND",
+    "action": "FORECAST_RUN",
+    "timestamp": "2026-07-23T11:45:34.998Z",
+    "oldStatus": "IDLE",
+    "newStatus": "COMPLETED",
+    "recordKey": "cashflow_forecast",
+    "details": {
+      "baselineOpeningCash": 38500000,
+      "monthsOfCashRunway": 4.3,
+      "overallStatus": "RED"
+    }
+  },
+  {
+    "id": "wf-cf-1784807116720",
+    "workflowName": "Cash Flow Forecast Engine",
+    "recordId": "CF-12M-1784807116720",
+    "userId": "FND-001",
+    "role": "FND",
+    "action": "FORECAST_RUN",
+    "timestamp": "2026-07-23T11:45:16.719Z",
+    "oldStatus": "IDLE",
+    "newStatus": "COMPLETED",
+    "recordKey": "cashflow_forecast",
+    "details": {
+      "baselineOpeningCash": 38500000,
+      "monthsOfCashRunway": 4.3,
+      "overallStatus": "RED"
+    }
+  },
+  {
+    "id": "wf-cf-1784715127189",
+    "workflowName": "Cash Flow Forecast Engine",
+    "recordId": "CF-12M-1784715127189",
+    "userId": "FND-001",
+    "role": "FND",
+    "action": "FORECAST_RUN",
+    "timestamp": "2026-07-22T10:12:07.188Z",
+    "oldStatus": "IDLE",
+    "newStatus": "COMPLETED",
+    "recordKey": "cashflow_forecast",
+    "details": {
+      "baselineOpeningCash": 38500000,
+      "monthsOfCashRunway": 4.3,
+      "overallStatus": "RED"
+    }
+  }
+]

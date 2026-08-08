@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dec1",
+    "declarationNo": "DIV-2025-Q4",
+    "period": "Q4 2025",
+    "declaredDate": "2026-01-10",
+    "totalPoolAmount": 25000000,
+    "ratePerShareOrPercent": 12.5,
+    "status": "Paid"
+  },
+  {
+    "id": "dec2",
+    "declarationNo": "DIV-2026-Q1",
+    "period": "Q1 2026",
+    "declaredDate": "2026-04-12",
+    "totalPoolAmount": 30000000,
+    "ratePerShareOrPercent": 15,
+    "status": "Approved"
+  }
+]

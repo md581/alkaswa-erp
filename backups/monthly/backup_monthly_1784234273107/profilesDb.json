@@ -1,0 +1,146 @@
+[
+  {
+    "userId": "u-ahlaf",
+    "fullName": "Ahlaf Travels & Tour",
+    "phone": "+8801700000000",
+    "designationEn": "Founder & Chairman",
+    "designationBn": "প্রতিষ্ঠাতা ও চেয়ারম্যান",
+    "department": "Executive Board"
+  },
+  {
+    "userId": "u-fnd",
+    "fullName": "Md Nazrul Islam",
+    "phone": "+8801711000001",
+    "designationEn": "Founder & Chairman",
+    "designationBn": "প্রতিষ্ঠাতা ও চেয়ারম্যান",
+    "department": "Executive Board"
+  },
+  {
+    "userId": "u-md",
+    "fullName": "Md Nazrul Islam",
+    "phone": "+8801711000002",
+    "designationEn": "Managing Director",
+    "designationBn": "ব্যবস্থাপনা পরিচালক",
+    "department": "Executive Board"
+  },
+  {
+    "userId": "u-gm",
+    "fullName": "Suhrawardy Ahmed",
+    "phone": "+8801711000003",
+    "designationEn": "General Manager",
+    "designationBn": "মহাব্যবস্থাপক",
+    "department": "Operations"
+  },
+  {
+    "userId": "u-hrm",
+    "fullName": "Anika Rahman",
+    "phone": "+8801711000004",
+    "designationEn": "HR Manager",
+    "designationBn": "মানবসম্পদ ব্যবস্থাপক",
+    "department": "Human Resources"
+  },
+  {
+    "userId": "u-act",
+    "fullName": "Sohail Tanvir",
+    "phone": "+8801711000005",
+    "designationEn": "Accounts Manager",
+    "designationBn": "হিসাবরক্ষণ ব্যবস্থাপক",
+    "department": "Finance & Accounts"
+  },
+  {
+    "userId": "u-slm",
+    "fullName": "S.M. Rafiqul Hassan",
+    "phone": "+8801711000006",
+    "designationEn": "Sales Manager",
+    "designationBn": "বিক্রয় ব্যবস্থাপক",
+    "department": "Sales & Marketing"
+  },
+  {
+    "userId": "u-lam",
+    "fullName": "Tariq Al-Amin",
+    "phone": "+8801711000007",
+    "designationEn": "Land Acquisition Manager",
+    "designationBn": "ভূমি অধিগ্রহণ ব্যবস্থাপক",
+    "department": "Land Acquisition"
+  },
+  {
+    "userId": "u-lgl",
+    "fullName": "Barrister Imtiaz Ahmed",
+    "phone": "+8801711000008",
+    "designationEn": "Legal Manager",
+    "designationBn": "আইন বিষয়ক ব্যবস্থাপক",
+    "department": "Legal Affairs"
+  },
+  {
+    "userId": "u-eng",
+    "fullName": "Nazia Sultana",
+    "phone": "+8801711000009",
+    "designationEn": "Engineering Manager",
+    "designationBn": "প্রকৌশল ব্যবস্থাপক",
+    "department": "Engineering & Construction"
+  },
+  {
+    "userId": "u-prm",
+    "fullName": "Mizanur Rahman",
+    "phone": "+8801711000010",
+    "designationEn": "Procurement Manager",
+    "designationBn": "ক্রয় ব্যবস্থাপক",
+    "department": "Procurement & SCM"
+  },
+  {
+    "userId": "u-cst",
+    "fullName": "Afsana Mim",
+    "phone": "+8801711000011",
+    "designationEn": "Customer (Flat Buyer)",
+    "designationBn": "গ্রাহক (ফ্ল্যাট ক্রেতা)",
+    "department": "External Clients"
+  },
+  {
+    "userId": "u-ldo",
+    "fullName": "Haji Mohammad Yusuf",
+    "phone": "+8801711000012",
+    "designationEn": "Land Owner (JV Partner)",
+    "designationBn": "জমির মালিক (জেভি পার্টনার)",
+    "department": "Joint Ventures"
+  },
+  {
+    "userId": "u-inv",
+    "fullName": "Farhan Adil",
+    "phone": "+8801711000013",
+    "designationEn": "Investor (Project Capital)",
+    "designationBn": "বিনিয়োগকারী",
+    "department": "Investment Board"
+  },
+  {
+    "userId": "u-debug-1783955407826",
+    "fullName": "Debug Test User",
+    "phone": "+8801799999999",
+    "designationEn": "Customer",
+    "designationBn": "গ্রাহক",
+    "department": "External Clients"
+  },
+  {
+    "userId": "u-1783956574923",
+    "fullName": "Simulation Runner",
+    "phone": "+8801700112233",
+    "designationEn": "Customer",
+    "designationBn": "গ্রাহক",
+    "department": "External Clients"
+  },
+  {
+    "userId": "u-1784030127589",
+    "fullName": "Al-Kaswa Test Customer",
+    "phone": "+8801700000123",
+    "designationEn": "Customer",
+    "designationBn": "গ্রাহক",
+    "department": "External Clients"
+  },
+  {
+    "userId": "u-1784232105562",
+    "fullName": "Verification Tester",
+    "phone": "+8801711223344",
+    "designationEn": "Strategic Stakeholder",
+    "designationBn": "কৌশলগত অংশীদার",
+    "department": "Stakeholders"
+  }
+]

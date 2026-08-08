@@ -1,0 +1,17 @@
+[
+  {
+    "id": "p-01",
+    "bookingId": "b-01",
+    "amount": 120000,
+    "paymentDate": "2026-06-15T09:00:00Z",
+    "paymentMethod": "Wire Transfer",
+    "status": "Cleared"
+  },
+  {
+    "bookingId": "BOOK-201",
+    "amount": 2500000,
+    "paymentMethod": "Bank Transfer (City Bank Ltd)",
+    "purpose": "Down Payment Receipt",
+    "id": "p-1786107717227"
+  }
+]

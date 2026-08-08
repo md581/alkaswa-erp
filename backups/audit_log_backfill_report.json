@@ -1,0 +1,327 @@
+{
+  "timestamp": "2026-07-21T18:56:02.114Z",
+  "engine": "ENTERPRISE_DATA_CONSISTENCY_AUTO_REPAIR_ENGINE",
+  "total_affected_records": 26,
+  "records_repaired_count": 26,
+  "source_tag": "BACKFILL_ENGINE",
+  "events_coverage": [
+    "CREATE",
+    "IMPORT",
+    "SYSTEM_BACKFILL"
+  ],
+  "repaired_records": [
+    {
+      "module": "Customers",
+      "record_id": "c-01",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Customers",
+      "record_id": "c-02",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Bookings",
+      "record_id": "b-01",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Bookings",
+      "record_id": "b-02",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Payments",
+      "record_id": "p-01",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Investors",
+      "record_id": "ip1",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Investors",
+      "record_id": "ip2",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-ahlaf",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-fnd",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-md",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-gm",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-hrm",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-act",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-slm",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-lam",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-lgl",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-eng",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-prm",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-cst",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-ldo",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-inv",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-debug-1783955407826",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-1783956574923",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-1784030127589",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.111Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-1784232105562",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.112Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    },
+    {
+      "module": "Users",
+      "record_id": "u-1784232489109",
+      "events_generated": [
+        "CREATE",
+        "IMPORT",
+        "SYSTEM_BACKFILL"
+      ],
+      "timestamp_preserved": "2026-07-21T18:56:02.112Z",
+      "source": "BACKFILL_ENGINE",
+      "status": "REPAIRED"
+    }
+  ],
+  "status": "PASS"
+}

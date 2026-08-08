@@ -1,0 +1,46 @@
+{
+  "name": "al-kaswa-erp",
+  "version": "1.0.0",
+  "description": "Al Kaswa Holdings ERP - Critical Infrastructure Recovery",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.21.0",
+    "@types/bcryptjs": "^3.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "d3": "^7.9.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.6.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.379.0",
+    "motion": "^11.2.10",
+    "pg": "^8.11.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.12.12",
+    "@types/pg": "^8.11.6",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "esbuild": "^0.21.3",
+    "tailwindcss": "^4.0.0-alpha.1",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}

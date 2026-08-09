@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rep-1",
+    "companyId": "c1",
+    "branchId": "b1",
+    "userId": "u-fnd",
+    "fullName": "Tariq Anam",
+    "targetBdt": 50000000,
+    "achievementsBdt": 12500000,
+    "isDeleted": false,
+    "isOnline": true
+  },
+  {
+    "id": "rep-2",
+    "companyId": "c1",
+    "branchId": "b1",
+    "userId": "u-md",
+    "fullName": "Sabina Yasmin",
+    "targetBdt": 60000000,
+    "achievementsBdt": 24000000,
+    "isDeleted": false,
+    "isOnline": true
+  }
+]

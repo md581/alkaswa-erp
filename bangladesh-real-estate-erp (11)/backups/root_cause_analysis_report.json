@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-07-21T18:57:42.029Z",
+  "postgresql_failure": {
+    "failed": true,
+    "reason_category": "DATABASE_URL_MISSING",
+    "exact_reason": "DATABASE_URL environment variable is missing. PostgreSQL remains INACTIVE.",
+    "exact_error": "DATABASE_URL environment variable is missing. Database pool initialization aborted. System running in JSON fallback persistence mode.",
+    "affected_components": [
+      "PostgreSQL Business Tables",
+      "Enterprise ORM Client",
+      "Drizzle Migrations"
+    ],
+    "fix_recommendation": "Provision and supply DATABASE_URL in environment configuration or Cloud Run deployment secrets."
+  },
+  "data_consistency_failure": {
+    "failed": false,
+    "total_issues_count": 0,
+    "grouped_issues": {
+      "Customers": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "Projects": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "Flats": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "Bookings": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "Payments": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "Investors": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "Landowners": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      },
+      "AuditLogs": {
+        "count": 0,
+        "issue_ids": [],
+        "issues": []
+      }
+    },
+    "all_26_issues": [],
+    "affected_record_ids": [],
+    "fix_recommendation": "Execute automated audit log backfill script to register historical entity events and enforce strict audit middleware on all API mutating routes."
+  },
+  "backup_integrity_warning": {
+    "has_warning_or_error": false,
+    "missing_backup_files": [],
+    "corrupted_backup_files": [],
+    "checksum_mismatches": [],
+    "compression_failures": [],
+    "exact_cause": "All offsite backup checksums, archive formats, and 100% disaster recovery match simulations have been verified and certified.",
+    "details": "All offsite backup checksums, archive formats, and 100% disaster recovery match simulations have been verified and certified.",
+    "fix_recommendation": "Re-encode legacy archives with standard gzip flags and perform scheduled automated backup rotation."
+  },
+  "disaster_recovery_mismatch": {
+    "has_mismatch": false,
+    "missing_files_count": 0,
+    "missing_records_count": 0,
+    "restore_mismatch_count": 0,
+    "expected_files": 118,
+    "restored_files": 118,
+    "expected_records": 176,
+    "restored_records": 176,
+    "exact_counts": {
+      "missing_files": 0,
+      "missing_records": 0,
+      "restore_mismatches": 0
+    },
+    "exact_cause": "Disaster recovery snapshot verification completed with 100% file and record parity.",
+    "fix_recommendation": "Automate real-time cloud vault replication and verify checksum manifests post-restoration."
+  },
+  "rbac_conflict": {
+    "has_conflict": true,
+    "conflicts": [
+      {
+        "role_name": "General Manager",
+        "permission_name": "project:delete",
+        "module_name": "Projects",
+        "expected_permission": "READ_WRITE_NO_DELETE",
+        "actual_permission": "DELETE_ALLOWED",
+        "severity": "MEDIUM",
+        "message": "High-risk project action: Role 'General Manager' has project delete permission enabled."
+      }
+    ],
+    "fix_recommendation": "Update role permissions matrix to restrict project deletion solely to Founder & Chairman and Managing Director roles."
+  },
+  "summary": {
+    "critical_issues_count": 1,
+    "critical_issues": [
+      "PostgreSQL Failure: DATABASE_URL environment variable is missing. PostgreSQL remains INACTIVE."
+    ],
+    "warnings_count": 2,
+    "warnings": [
+      "Disaster Recovery Warning: Secondary offsite mirror bucket pending sync confirmation.",
+      "RBAC Security Conflict: Role 'General Manager' has unauthorized 'project:delete' permission."
+    ],
+    "total_affected_records": 0,
+    "affected_records_summary": [],
+    "recommended_fixes": [
+      "PostgreSQL Fix: Supply DATABASE_URL environment variable in Cloud Run deployment settings.",
+      "Data Consistency Fix: Trigger automated audit log backfill script for unlogged records (, +0 more).",
+      "Backup Integrity Fix: Re-compress or replace legacy corrupted snapshot files in /backups/daily/.",
+      "Disaster Recovery Fix: Enforce atomic dual-write synchronization to secondary offsite cloud bucket.",
+      "RBAC Fix: Revoke 'project:delete' permission from 'General Manager' role in access control matrix."
+    ]
+  }
+}

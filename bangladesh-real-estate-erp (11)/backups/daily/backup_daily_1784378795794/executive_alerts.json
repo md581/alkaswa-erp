@@ -1,0 +1,11 @@
+[
+  {
+    "id": "alert-1784377964657",
+    "category": "Budget",
+    "message": "Backup Integrity Failure",
+    "details": "Startup protection failed verification check on backup backup_daily_1784286111241. Error: Checksum verification failed for backup ID: backup_daily_1784286111241",
+    "severity": "Critical",
+    "date": "2026-07-18",
+    "isResolved": false
+  }
+]

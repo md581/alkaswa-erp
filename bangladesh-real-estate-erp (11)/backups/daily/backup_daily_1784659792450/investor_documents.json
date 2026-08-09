@@ -1,0 +1,26 @@
+[
+  {
+    "id": "idoc1",
+    "investorId": "inv1",
+    "title": "Kaswa Holdings Master Partnership Deed",
+    "documentType": "Investment Agreement",
+    "fileSize": "3.4 MB",
+    "createdAt": "2025-01-15"
+  },
+  {
+    "id": "idoc2",
+    "investorId": "inv1",
+    "title": "Al Kaswa Holdings Registered Share Certificate (Rahim #089)",
+    "documentType": "Share Certificate",
+    "fileSize": "1.2 MB",
+    "createdAt": "2025-02-01"
+  },
+  {
+    "id": "idoc3",
+    "investorId": "inv1",
+    "title": "Tax Deduction Certificate FY 2025-26",
+    "documentType": "Tax Statement",
+    "fileSize": "890 KB",
+    "createdAt": "2026-06-30"
+  }
+]

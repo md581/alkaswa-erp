@@ -1,0 +1,26 @@
+[
+  {
+    "id": "act-1",
+    "companyId": "c1",
+    "branchId": "b1",
+    "leadId": "lnd-ld-1",
+    "activityType": "Call",
+    "summary": "Introductory Call",
+    "details": "Discussed project overview, sector details, and budget limits.",
+    "activityDate": "2026-06-12T11:00:00Z",
+    "executiveId": "u-fnd",
+    "isDeleted": false
+  },
+  {
+    "id": "act-2",
+    "companyId": "c1",
+    "branchId": "b1",
+    "leadId": "lnd-ld-1",
+    "activityType": "Site Visit",
+    "summary": "Site Tour completed",
+    "details": "Guided customer across Phase 1 & tower layout structures.",
+    "activityDate": "2026-06-25T15:00:00Z",
+    "executiveId": "u-fnd",
+    "isDeleted": false
+  }
+]

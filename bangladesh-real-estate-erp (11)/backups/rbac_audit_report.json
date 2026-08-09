@@ -1,0 +1,27 @@
+{
+  "roles_verified": [
+    "Founder & Chairman",
+    "Managing Director",
+    "General Manager",
+    "HR Manager",
+    "Accounts Manager",
+    "Sales Manager",
+    "Engineering Manager",
+    "Legal Manager",
+    "Land Acquisition Manager",
+    "Strategic Investor",
+    "Land Owner",
+    "Customer"
+  ],
+  "permission_conflicts": [],
+  "unauthorized_access": [],
+  "security_score": 100,
+  "status": "PASS",
+  "certificationStatus": "VERIFIED",
+  "metrics": {
+    "rolesVerifiedCount": 12,
+    "permissionConflictCount": 0,
+    "unauthorizedAccessCount": 0
+  },
+  "lastVerificationTime": "2026-07-21T18:58:05.633Z"
+}

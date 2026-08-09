@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bkg-u-1",
+    "companyId": "c1",
+    "branchId": "b1",
+    "bookingId": "bkg-1",
+    "unitId": "u1-1",
+    "status": "Sold",
+    "isDeleted": false,
+    "createdAt": "2026-05-15T10:00:00Z",
+    "updatedAt": "2026-05-15T10:00:00Z",
+    "createdBy": "system"
+  },
+  {
+    "id": "bkg-u-1784030171162",
+    "companyId": "c1",
+    "branchId": "b1",
+    "bookingId": "bkg-srv-1784030171162",
+    "unitId": "u-test-1784030171157",
+    "status": "Sold",
+    "isDeleted": false,
+    "createdAt": "2026-07-14T11:56:11.162Z",
+    "updatedAt": "2026-07-14T11:56:11.162Z",
+    "createdBy": "u-fnd"
+  },
+  {
+    "id": "bkg-u-1784030193826",
+    "companyId": "c1",
+    "branchId": "b1",
+    "bookingId": "bkg-srv-1784030193826",
+    "unitId": "u-test-1784030193823",
+    "status": "Sold",
+    "isDeleted": false,
+    "createdAt": "2026-07-14T11:56:33.826Z",
+    "updatedAt": "2026-07-14T11:56:33.826Z",
+    "createdBy": "u-fnd"
+  }
+]

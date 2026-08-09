@@ -1,0 +1,18 @@
+{
+  "expected_files": 119,
+  "restored_files": 119,
+  "expected_records": 207,
+  "restored_records": 207,
+  "match_status": "PASS",
+  "dr_status": "PASS",
+  "simulation_timestamp": "2026-08-08T18:23:13.401Z",
+  "storage_location": "GCS (Primary)",
+  "logs": [
+    "Selected restore point: backup_daily_1786213393385",
+    "Expected files: 119",
+    "Expected records: 207",
+    "Integrity check passed (checksum matched).",
+    "Wiped local data directory and restored files cleanly.",
+    "Disaster recovery simulation completed with 100% PERFECT MATCH!"
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "table": "users",
+    "json_count": 19,
+    "postgres_count": 0,
+    "difference": 19,
+    "status": "FAIL"
+  },
+  {
+    "table": "profiles",
+    "json_count": 19,
+    "postgres_count": 0,
+    "difference": 19,
+    "status": "FAIL"
+  },
+  {
+    "table": "customers",
+    "json_count": 2,
+    "postgres_count": 0,
+    "difference": 2,
+    "status": "WARNING"
+  },
+  {
+    "table": "bookings",
+    "json_count": 2,
+    "postgres_count": 0,
+    "difference": 2,
+    "status": "WARNING"
+  },
+  {
+    "table": "payments",
+    "json_count": 1,
+    "postgres_count": 0,
+    "difference": 1,
+    "status": "WARNING"
+  },
+  {
+    "table": "investors",
+    "json_count": 2,
+    "postgres_count": 0,
+    "difference": 2,
+    "status": "WARNING"
+  },
+  {
+    "table": "landowners",
+    "json_count": 0,
+    "postgres_count": 0,
+    "difference": 0,
+    "status": "PASS"
+  },
+  {
+    "table": "projects",
+    "json_count": 0,
+    "postgres_count": 0,
+    "difference": 0,
+    "status": "PASS"
+  },
+  {
+    "table": "audit_logs",
+    "json_count": 81,
+    "postgres_count": 0,
+    "difference": 81,
+    "status": "FAIL"
+  },
+  {
+    "table": "booking_units",
+    "json_count": 0,
+    "postgres_count": 0,
+    "difference": 0,
+    "status": "PASS"
+  },
+  {
+    "table": "leads",
+    "json_count": 0,
+    "postgres_count": 0,
+    "difference": 0,
+    "status": "PASS"
+  },
+  {
+    "table": "journal_vouchers",
+    "json_count": 0,
+    "postgres_count": 0,
+    "difference": 0,
+    "status": "PASS"
+  },
+  {
+    "table": "ledger_entries",
+    "json_count": 0,
+    "postgres_count": 0,
+    "difference": 0,
+    "status": "PASS"
+  }
+]

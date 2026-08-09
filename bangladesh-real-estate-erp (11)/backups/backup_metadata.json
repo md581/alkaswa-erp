@@ -1,0 +1,1343 @@
+{
+  "lastDaily": "2026-07-23T13:52:48.278Z",
+  "lastWeekly": null,
+  "lastMonthly": "2026-07-17T08:58:42.078Z",
+  "history": [
+    {
+      "id": "backup_daily_1784814768278",
+      "timestamp": "2026-07-23T13:52:48.278Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 75927,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784711718265",
+      "timestamp": "2026-07-22T09:15:18.265Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 71335,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784711648163",
+      "timestamp": "2026-07-22T09:14:08.163Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 70535,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784711331633",
+      "timestamp": "2026-07-22T09:08:51.633Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 69735,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784711305563",
+      "timestamp": "2026-07-22T09:08:25.563Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 68935,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784710631824",
+      "timestamp": "2026-07-22T08:57:11.824Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 68135,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784710621738",
+      "timestamp": "2026-07-22T08:57:01.738Z",
+      "interval": "daily",
+      "filesCount": 119,
+      "sizeBytes": 67335,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784710040453",
+      "timestamp": "2026-07-22T08:47:20.453Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 66533,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784660261556",
+      "timestamp": "2026-07-21T18:57:41.584Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 8631,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784660220176",
+      "timestamp": "2026-07-21T18:57:00.194Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 8631,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784660190164",
+      "timestamp": "2026-07-21T18:56:30.196Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 8599,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784660027822",
+      "timestamp": "2026-07-21T18:53:47.841Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6983,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659941956",
+      "timestamp": "2026-07-21T18:52:21.974Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6951,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720536",
+      "timestamp": "2026-07-21T18:51:37.488Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720579",
+      "timestamp": "2026-07-21T18:51:37.483Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720627",
+      "timestamp": "2026-07-21T18:51:37.478Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720672",
+      "timestamp": "2026-07-21T18:51:37.474Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6901,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720721",
+      "timestamp": "2026-07-21T18:51:37.469Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6901,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720766",
+      "timestamp": "2026-07-21T18:51:37.464Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6901,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720814",
+      "timestamp": "2026-07-21T18:51:37.460Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720862",
+      "timestamp": "2026-07-21T18:51:37.455Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720917",
+      "timestamp": "2026-07-21T18:51:37.451Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278720963",
+      "timestamp": "2026-07-21T18:51:37.446Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6901,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721011",
+      "timestamp": "2026-07-21T18:51:37.440Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721053",
+      "timestamp": "2026-07-21T18:51:37.435Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721103",
+      "timestamp": "2026-07-21T18:51:37.429Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721153",
+      "timestamp": "2026-07-21T18:51:37.424Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721202",
+      "timestamp": "2026-07-21T18:51:37.420Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721248",
+      "timestamp": "2026-07-21T18:51:37.415Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721297",
+      "timestamp": "2026-07-21T18:51:37.408Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721349",
+      "timestamp": "2026-07-21T18:51:37.402Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721397",
+      "timestamp": "2026-07-21T18:51:37.396Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721443",
+      "timestamp": "2026-07-21T18:51:37.390Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721493",
+      "timestamp": "2026-07-21T18:51:37.374Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721539",
+      "timestamp": "2026-07-21T18:51:37.369Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721588",
+      "timestamp": "2026-07-21T18:51:37.363Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721635",
+      "timestamp": "2026-07-21T18:51:37.358Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721681",
+      "timestamp": "2026-07-21T18:51:37.353Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721723",
+      "timestamp": "2026-07-21T18:51:37.345Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721771",
+      "timestamp": "2026-07-21T18:51:37.338Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721818",
+      "timestamp": "2026-07-21T18:51:37.333Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721868",
+      "timestamp": "2026-07-21T18:51:37.326Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721912",
+      "timestamp": "2026-07-21T18:51:37.316Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278721959",
+      "timestamp": "2026-07-21T18:51:37.311Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278722009",
+      "timestamp": "2026-07-21T18:51:37.305Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278722078",
+      "timestamp": "2026-07-21T18:51:37.299Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784285656121",
+      "timestamp": "2026-07-21T18:51:37.293Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784285778268",
+      "timestamp": "2026-07-21T18:51:37.285Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784377966192",
+      "timestamp": "2026-07-21T18:51:37.277Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6900,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659897167",
+      "timestamp": "2026-07-21T18:51:37.196Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6907,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659873952",
+      "timestamp": "2026-07-21T18:51:13.984Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6907,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659831729",
+      "timestamp": "2026-07-21T18:50:31.759Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6907,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659792450",
+      "timestamp": "2026-07-21T18:49:52.479Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6905,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278716896",
+      "timestamp": "2026-07-21T18:48:51.766Z",
+      "interval": "monthly",
+      "filesCount": 16,
+      "sizeBytes": 4517,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276885748",
+      "timestamp": "2026-07-21T18:48:51.764Z",
+      "interval": "monthly",
+      "filesCount": 96,
+      "sizeBytes": 3451,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784278700284",
+      "timestamp": "2026-07-21T18:48:51.764Z",
+      "interval": "monthly",
+      "filesCount": 3,
+      "sizeBytes": 625,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276885621",
+      "timestamp": "2026-07-21T18:48:51.759Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276797647",
+      "timestamp": "2026-07-21T18:48:51.755Z",
+      "interval": "monthly",
+      "filesCount": 63,
+      "sizeBytes": 886,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276797537",
+      "timestamp": "2026-07-21T18:48:51.752Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276797451",
+      "timestamp": "2026-07-21T18:48:51.748Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276797368",
+      "timestamp": "2026-07-21T18:48:51.743Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276797284",
+      "timestamp": "2026-07-21T18:48:51.738Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783353",
+      "timestamp": "2026-07-21T18:48:51.732Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783284",
+      "timestamp": "2026-07-21T18:48:51.730Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783230",
+      "timestamp": "2026-07-21T18:48:51.729Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783133",
+      "timestamp": "2026-07-21T18:48:51.728Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783042",
+      "timestamp": "2026-07-21T18:48:51.727Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276782935",
+      "timestamp": "2026-07-21T18:48:51.725Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276782829",
+      "timestamp": "2026-07-21T18:48:51.724Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276782730",
+      "timestamp": "2026-07-21T18:48:51.723Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758831",
+      "timestamp": "2026-07-21T18:48:51.720Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758726",
+      "timestamp": "2026-07-21T18:48:51.719Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758632",
+      "timestamp": "2026-07-21T18:48:51.718Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758541",
+      "timestamp": "2026-07-21T18:48:51.716Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758466",
+      "timestamp": "2026-07-21T18:48:51.715Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758430",
+      "timestamp": "2026-07-21T18:48:51.714Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758357",
+      "timestamp": "2026-07-21T18:48:51.713Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758321",
+      "timestamp": "2026-07-21T18:48:51.712Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758247",
+      "timestamp": "2026-07-21T18:48:51.711Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758167",
+      "timestamp": "2026-07-21T18:48:51.709Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758119",
+      "timestamp": "2026-07-21T18:48:51.708Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239821194",
+      "timestamp": "2026-07-21T18:48:51.707Z",
+      "interval": "monthly",
+      "filesCount": 61,
+      "sizeBytes": 874,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239821056",
+      "timestamp": "2026-07-21T18:48:51.704Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4626,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239820918",
+      "timestamp": "2026-07-21T18:48:51.700Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4626,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239820779",
+      "timestamp": "2026-07-21T18:48:51.687Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239820649",
+      "timestamp": "2026-07-21T18:48:51.681Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239801399",
+      "timestamp": "2026-07-21T18:48:51.675Z",
+      "interval": "monthly",
+      "filesCount": 2,
+      "sizeBytes": 380,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239801279",
+      "timestamp": "2026-07-21T18:48:51.674Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4626,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239801160",
+      "timestamp": "2026-07-21T18:48:51.669Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239801021",
+      "timestamp": "2026-07-21T18:48:51.663Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4626,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239800903",
+      "timestamp": "2026-07-21T18:48:51.657Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4627,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784239800796",
+      "timestamp": "2026-07-21T18:48:51.651Z",
+      "interval": "monthly",
+      "filesCount": 112,
+      "sizeBytes": 4595,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238649475",
+      "timestamp": "2026-07-21T18:48:51.646Z",
+      "interval": "monthly",
+      "filesCount": 88,
+      "sizeBytes": 1077,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238649274",
+      "timestamp": "2026-07-21T18:48:51.643Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238649044",
+      "timestamp": "2026-07-21T18:48:51.637Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238648857",
+      "timestamp": "2026-07-21T18:48:51.632Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238648692",
+      "timestamp": "2026-07-21T18:48:51.628Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238648491",
+      "timestamp": "2026-07-21T18:48:51.623Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238648286",
+      "timestamp": "2026-07-21T18:48:51.619Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238648089",
+      "timestamp": "2026-07-21T18:48:51.614Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238647868",
+      "timestamp": "2026-07-21T18:48:51.610Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784238647673",
+      "timestamp": "2026-07-21T18:48:51.605Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4504,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784237516601",
+      "timestamp": "2026-07-21T18:48:51.590Z",
+      "interval": "monthly",
+      "filesCount": 99,
+      "sizeBytes": 3559,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234273127",
+      "timestamp": "2026-07-21T18:48:51.558Z",
+      "interval": "monthly",
+      "filesCount": 4,
+      "sizeBytes": 408,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234273107",
+      "timestamp": "2026-07-21T18:48:51.557Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234273076",
+      "timestamp": "2026-07-21T18:48:51.556Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234273051",
+      "timestamp": "2026-07-21T18:48:51.554Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234260586",
+      "timestamp": "2026-07-21T18:48:51.553Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234260187",
+      "timestamp": "2026-07-21T18:48:51.552Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234259743",
+      "timestamp": "2026-07-21T18:48:51.550Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234258580",
+      "timestamp": "2026-07-21T18:48:51.548Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784234257678",
+      "timestamp": "2026-07-21T18:48:51.546Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3647,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784233897899",
+      "timestamp": "2026-07-21T18:48:51.544Z",
+      "interval": "monthly",
+      "filesCount": 66,
+      "sizeBytes": 913,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784233857635",
+      "timestamp": "2026-07-21T18:48:51.541Z",
+      "interval": "monthly",
+      "filesCount": 82,
+      "sizeBytes": 1041,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784233857500",
+      "timestamp": "2026-07-21T18:48:51.537Z",
+      "interval": "monthly",
+      "filesCount": 116,
+      "sizeBytes": 4796,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784234258582",
+      "timestamp": "2026-07-21T18:48:51.532Z",
+      "interval": "daily",
+      "filesCount": 12,
+      "sizeBytes": 3645,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784233684065",
+      "timestamp": "2026-07-21T18:48:51.530Z",
+      "interval": "daily",
+      "filesCount": 116,
+      "sizeBytes": 4790,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784233402425",
+      "timestamp": "2026-07-21T18:48:51.523Z",
+      "interval": "daily",
+      "filesCount": 5,
+      "sizeBytes": 3338,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659731372",
+      "timestamp": "2026-07-21T18:48:51.407Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6821,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659679982",
+      "timestamp": "2026-07-21T18:48:00.011Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6819,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784659662430",
+      "timestamp": "2026-07-21T18:47:42.448Z",
+      "interval": "daily",
+      "filesCount": 118,
+      "sizeBytes": 6819,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783831",
+      "timestamp": "2026-07-21T18:47:12.488Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783785",
+      "timestamp": "2026-07-21T18:47:12.480Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783742",
+      "timestamp": "2026-07-21T18:47:12.474Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783681",
+      "timestamp": "2026-07-21T18:47:12.466Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783635",
+      "timestamp": "2026-07-21T18:47:12.461Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783573",
+      "timestamp": "2026-07-21T18:47:12.455Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783522",
+      "timestamp": "2026-07-21T18:47:12.449Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783467",
+      "timestamp": "2026-07-21T18:47:12.445Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276783415",
+      "timestamp": "2026-07-21T18:47:12.441Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276761258",
+      "timestamp": "2026-07-21T18:47:12.439Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276761220",
+      "timestamp": "2026-07-21T18:47:12.433Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276761135",
+      "timestamp": "2026-07-21T18:47:12.427Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276761060",
+      "timestamp": "2026-07-21T18:47:12.421Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276761017",
+      "timestamp": "2026-07-21T18:47:12.416Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760938",
+      "timestamp": "2026-07-21T18:47:12.409Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760863",
+      "timestamp": "2026-07-21T18:47:12.403Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760821",
+      "timestamp": "2026-07-21T18:47:12.397Z",
+      "interval": "monthly",
+      "filesCount": 118,
+      "sizeBytes": 6778,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760728",
+      "timestamp": "2026-07-21T18:47:12.360Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760634",
+      "timestamp": "2026-07-21T18:47:12.358Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760542",
+      "timestamp": "2026-07-21T18:47:12.357Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760466",
+      "timestamp": "2026-07-21T18:47:12.355Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760422",
+      "timestamp": "2026-07-21T18:47:12.354Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760347",
+      "timestamp": "2026-07-21T18:47:12.352Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760255",
+      "timestamp": "2026-07-21T18:47:12.351Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760162",
+      "timestamp": "2026-07-21T18:47:12.350Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760116",
+      "timestamp": "2026-07-21T18:47:12.348Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276760036",
+      "timestamp": "2026-07-21T18:47:12.347Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759964",
+      "timestamp": "2026-07-21T18:47:12.344Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759877",
+      "timestamp": "2026-07-21T18:47:12.343Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759819",
+      "timestamp": "2026-07-21T18:47:12.341Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759743",
+      "timestamp": "2026-07-21T18:47:12.333Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759643",
+      "timestamp": "2026-07-21T18:47:12.331Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759561",
+      "timestamp": "2026-07-21T18:47:12.330Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759515",
+      "timestamp": "2026-07-21T18:47:12.328Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759430",
+      "timestamp": "2026-07-21T18:47:12.327Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759352",
+      "timestamp": "2026-07-21T18:47:12.325Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759313",
+      "timestamp": "2026-07-21T18:47:12.324Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759235",
+      "timestamp": "2026-07-21T18:47:12.322Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759140",
+      "timestamp": "2026-07-21T18:47:12.319Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3764,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276759049",
+      "timestamp": "2026-07-21T18:47:12.317Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758964",
+      "timestamp": "2026-07-21T18:47:12.316Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3765,
+      "status": "success"
+    },
+    {
+      "id": "backup_monthly_1784276758925",
+      "timestamp": "2026-07-21T18:47:12.313Z",
+      "interval": "monthly",
+      "filesCount": 12,
+      "sizeBytes": 3764,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784378795794",
+      "timestamp": "2026-07-21T18:47:12.304Z",
+      "interval": "daily",
+      "filesCount": 116,
+      "sizeBytes": 6348,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784378693735",
+      "timestamp": "2026-07-21T18:47:12.296Z",
+      "interval": "daily",
+      "filesCount": 116,
+      "sizeBytes": 6348,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784378533565",
+      "timestamp": "2026-07-21T18:47:12.288Z",
+      "interval": "daily",
+      "filesCount": 116,
+      "sizeBytes": 6347,
+      "status": "success"
+    },
+    {
+      "id": "backup_daily_1784378390150",
+      "timestamp": "2026-07-21T18:47:12.266Z",
+      "interval": "daily",
+      "filesCount": 116,
+      "sizeBytes": 6347,
+      "status": "success"
+    }
+  ]
+}

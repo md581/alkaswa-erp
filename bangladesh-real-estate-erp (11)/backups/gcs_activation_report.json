@@ -1,0 +1,10 @@
+{
+  "bucket_name": "alkaswa-holdings-production-vault",
+  "upload_status": "FAILED",
+  "download_status": "FAILED",
+  "checksum_status": "FAILED",
+  "verification_timestamp": "2026-08-08T18:23:28.503Z",
+  "gcs_bucket_status": "ACTIVE",
+  "gcs_client_active": true,
+  "details": "GCS connection error: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"The specified bucket does not exist.\",\n    \"errors\": [\n      {\n        \"message\": \"The specified bucket does not exist.\",\n        \"domain\": \"global\",\n        \"reason\": \"notFound\"\n      }\n    ]\n  }\n}\n"
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-08-08T18:23:20.653Z",
+  "auditTitle": "AL KASWA HOLDINGS ERP - FINANCIAL INTEGRITY & ANTI-FRAUD AUDIT REPORT",
+  "Fraud Risk Score": 100,
+  "Certification Status": "CERTIFIED_FINANCIALLY_SECURE",
+  "Duplicate Entries": [],
+  "Financial Mismatches": [],
+  "Suspicious Activities": [],
+  "metrics": {
+    "totalReceiptsAudited": 0,
+    "totalVouchersAudited": 0,
+    "totalPaymentsAudited": 2,
+    "totalBookingsAudited": 3,
+    "duplicateCount": 0,
+    "mismatchCount": 0,
+    "suspiciousCount": 0,
+    "negativeBalanceCount": 0,
+    "overpaymentCount": 0
+  },
+  "remediation_and_controls": [
+    "Rule 1 Enforced: Approved money receipts cannot have amount, customer, or booking altered without Founder approval workflow.",
+    "Rule 2 Enforced: Approved sales payments amount is immutable without Founder approval workflow.",
+    "Rule 3 Enforced: Posted general ledger vouchers cannot be edited without Founder approval workflow.",
+    "Rule 4 Enforced: All financial modifications require Founder role verification and JWT authorization token.",
+    "Rule 5 Enforced: Duplicate receipts, vouchers, payment references, negative balances, and overpayments automatically flagged.",
+    "Rule 6 Enforced: Financial Audit Trail logs User, Date, Time, IP, Old Amount, New Amount, and Reason for every mutation.",
+    "Rule 7 Enforced: Suspicious activity detector flags backdated entries, repeated edits, unusually large payments, and duplicate submissions.",
+    "Rule 9 Enforced: Zero API route bypass allowed across all generic repository sync and financial endpoints."
+  ]
+}

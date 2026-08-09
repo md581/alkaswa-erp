@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-07-23T04:52:00.000Z",
+  "auditTitle": "Netlify Deployment Forensic Audit",
+  "targetEnvironment": "Netlify Static Web Hosting vs. Node.js Express Cloud Run",
+  "issueSummary": {
+    "problem": "Registration, Login, and API calls fail after Netlify deployment",
+    "primaryRootCause": "Netlify static CDN hosting serves static HTML/JS/CSS assets without running the Node.js Express backend process ('server.ts'). All relative HTTP fetch calls to '/api/*' return 404 or index.html SPA fallbacks.",
+    "affectedModules": [
+      "Authentication & JWT Session Engine (/api/auth/*)",
+      "Database Generic Repository Sync (/api/generic-repository/*)",
+      "Financial Integrity & Ledger (/api/finance/*, /api/admin/finance/*)",
+      "Sales CRM & Plot Bookings (/api/sales/*)",
+      "Enterprise Access Control & RBAC (/api/security/*)",
+      "Founder Disaster Recovery & System Admin (/api/admin/database/*)"
+    ]
+  },
+  "environmentVariablesAudit": {
+    "VITE_API_BASE_URL": {
+      "defined": false,
+      "currentFallback": "Relative path '/api/*'",
+      "impact": "On Netlify, relative fetches hit the Netlify static CDN edge instead of an external backend API URL."
+    },
+    "JWT_SECRET": {
+      "defined": true,
+      "location": "Server-side process.env / default secret",
+      "impact": "Inaccessible on client-side static hosting."
+    },
+    "DATABASE_URL": {
+      "defined": true,
+      "location": "Server-side process.env",
+      "impact": "PostgreSQL connection string cannot be accessed directly by browser frontend."
+    }
+  },
+  "forensicApiTable": [
+    {
+      "frontendFile": "src/contexts/AuthContext.tsx",
+      "functionName": "login()",
+      "endpointCalled": "/api/auth/login",
+      "method": "POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Express server ('server.ts') is not running on Netlify CDN; fetch returns 404 or HTML fallback causing JSON parsing error."
+    },
+    {
+      "frontendFile": "src/contexts/AuthContext.tsx",
+      "functionName": "register()",
+      "endpointCalled": "/api/auth/register",
+      "method": "POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "No backend server to handle user creation, password hashing (bcrypt), or DB record creation."
+    },
+    {
+      "frontendFile": "src/contexts/AuthContext.tsx",
+      "functionName": "initializeSession()",
+      "endpointCalled": "/api/auth/me",
+      "method": "GET",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "JWT token verification requires backend secret key validation on Express."
+    },
+    {
+      "frontendFile": "src/contexts/AuthContext.tsx",
+      "functionName": "refreshToken()",
+      "endpointCalled": "/api/auth/refresh",
+      "method": "POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Refresh token secret validation relies on server process."
+    },
+    {
+      "frontendFile": "src/contexts/AuthContext.tsx",
+      "functionName": "resetPassword()",
+      "endpointCalled": "/api/auth/reset-password",
+      "method": "POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Requires server-side bcrypt hashing and database update."
+    },
+    {
+      "frontendFile": "src/components/LoginPage.tsx",
+      "functionName": "runE2ETrace()",
+      "endpointCalled": "/api/auth/debug-trace",
+      "method": "POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Diagnostic trace endpoint is executed by Node.js process."
+    },
+    {
+      "frontendFile": "src/db/dbService.ts",
+      "functionName": "GenericRepository.sync()",
+      "endpointCalled": "/api/generic-repository/*",
+      "method": "GET/POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Sync endpoint writes to data/*.json or PostgreSQL; unserved on static CDN."
+    },
+    {
+      "frontendFile": "src/components/CashFlowForecastModule.tsx",
+      "functionName": "fetchForecast()",
+      "endpointCalled": "/api/admin/finance/cashflow-forecast",
+      "method": "GET",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "12-month financial forecasting engine runs inside Node.js backend."
+    },
+    {
+      "frontendFile": "src/components/FounderCommandCenterModule.tsx",
+      "functionName": "fetchDbAudit()",
+      "endpointCalled": "/api/admin/database/*",
+      "method": "GET/POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Disaster recovery, backups, and integrity tests require Express server."
+    },
+    {
+      "frontendFile": "src/components/FinanceAccountsModule.tsx",
+      "functionName": "fetchAccounts()",
+      "endpointCalled": "/api/finance/accounts",
+      "method": "GET",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Chart of accounts ledger queries backend database."
+    },
+    {
+      "frontendFile": "src/components/FinanceAccountsModule.tsx",
+      "functionName": "fetchJournals()",
+      "endpointCalled": "/api/finance/journals",
+      "method": "GET/POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Journal voucher verification and ledger postings require backend."
+    },
+    {
+      "frontendFile": "src/services/salesService.ts",
+      "functionName": "fetchLeads() / fetchBookings()",
+      "endpointCalled": "/api/sales/*",
+      "method": "GET/POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Sales pipeline and plot booking APIs require server handlers."
+    },
+    {
+      "frontendFile": "src/components/EnterpriseAccessControl.tsx",
+      "functionName": "fetchRolesAndPermissions()",
+      "endpointCalled": "/api/security/*",
+      "method": "GET/POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "RBAC security enforcement endpoints require active Express backend."
+    },
+    {
+      "frontendFile": "src/components/RestoreDeletedDataCenter.tsx",
+      "functionName": "restoreData()",
+      "endpointCalled": "/api/admin/founder-restore",
+      "method": "POST",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Purge and restore operations execute filesystem/database tasks."
+    },
+    {
+      "frontendFile": "src/components/ERPHealthCenter.tsx",
+      "functionName": "checkStatus()",
+      "endpointCalled": "/api/admin/database/status",
+      "method": "GET",
+      "worksOnLocalOrCloudRun": true,
+      "worksOnNetlifyStatic": false,
+      "why": "Health metrics check requires active Node server process."
+    }
+  ],
+  "architectureTransitionOptions": {
+    "optionA": {
+      "title": "OPTION A: Client-Side Standalone Hybrid (Frontend-Only)",
+      "description": "Empower the app to operate in pure client-side mode using browser localStorage / IndexedDB for user authentication, session state, and repository persistence when API endpoints are unreachable.",
+      "implementationSteps": [
+        "1. Update AuthContext.tsx to fall back to client-side localStorage authentication and mock JWT generation when /api/auth/login or /api/auth/register fetch fails with 404 or network error.",
+        "2. Update dbService.ts to use client-side storage persistence without failing on missing backend endpoints.",
+        "3. Configure client-side fallback handlers for demo roles so all 11 executive demo personas work instantly on static Netlify."
+      ]
+    },
+    "optionB": {
+      "title": "OPTION B: Separate Express Backend Deployment (Cloud Run / Railway / Render + Netlify Rewrites)",
+      "description": "Deploy the existing Express server ('server.ts') to Cloud Run, Render, or Railway, and configure Netlify redirects ('_redirects') to proxy '/api/*' requests to the deployed backend URL.",
+      "implementationSteps": [
+        "1. Deploy server.ts to Cloud Run or Render.",
+        "2. Add public/_redirects file to Netlify build: '/api/* https://your-backend.run.app/api/:splat 200'",
+        "3. Define environment variable VITE_API_BASE_URL on Netlify."
+      ]
+    },
+    "optionC": {
+      "title": "OPTION C: Netlify Serverless Functions or Supabase Migration",
+      "description": "Migrate Express routes to Netlify Serverless Functions using serverless-http or integrate Supabase Auth & PostgreSQL.",
+      "implementationSteps": [
+        "1. Package server.ts into netlify/functions/api.ts using serverless-http.",
+        "2. Configure netlify.toml to route /api/* to the serverless function.",
+        "3. Connect to Supabase or hosted PostgreSQL database."
+      ]
+    }
+  }
+}

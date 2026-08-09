@@ -1,0 +1,18 @@
+{
+  "database_url_status": "MISSING",
+  "postgresql_status": "INACTIVE",
+  "pool_status": "NULL",
+  "select_now_status": "FAILED",
+  "database_name": "NULL",
+  "postgres_version": "NULL",
+  "total_tables": 0,
+  "total_records": 0,
+  "tables": [],
+  "mismatch_report": [],
+  "instructions": [
+    "To activate PostgreSQL enterprise persistent storage:",
+    "1. Define the 'DATABASE_URL' environment variable in your dashboard or .env file.",
+    "   Example: DATABASE_URL=postgresql://user:password@host:port/dbname?sslmode=require",
+    "2. The system will automatically detect the presence of DATABASE_URL, connect, run migrations, and execute full bi-directional sync on startup."
+  ]
+}

@@ -1,0 +1,4 @@
+# Netlify SPA Routing & API Proxy Configuration
+
+# 1. SPA Fallback: Redirect all non-file browser navigation to index.html for React Router
+/*    /index.html   200

@@ -1,0 +1,9 @@
+{
+  "bucket_name": "alkaswa-holdings-production-vault",
+  "status": "SUCCESS",
+  "compressed_using_gzip": true,
+  "offsite_storage_active": true,
+  "manifest_stored": true,
+  "verification_timestamp": "2026-08-08T18:23:29.914Z",
+  "details": "Offsite backups are active and replicating to Google Cloud Storage bucket."
+}

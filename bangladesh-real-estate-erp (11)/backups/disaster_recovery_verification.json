@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-07-21T18:58:05.629Z",
+  "latest_backup_id": "backup_daily_1784660261556",
+  "source_files": 118,
+  "restored_files": 118,
+  "source_records": 178,
+  "restored_records": 178,
+  "file_match": true,
+  "record_match": true,
+  "recovery_match_percentage": 100,
+  "status": "PASS"
+}

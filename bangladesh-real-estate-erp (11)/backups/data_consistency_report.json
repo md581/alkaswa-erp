@@ -1,0 +1,17 @@
+{
+  "duplicates": [],
+  "orphans": [],
+  "financial_mismatches": [],
+  "audit_gaps": [],
+  "status": "PASS",
+  "certificationStatus": "VERIFIED",
+  "consistencyScore": 100,
+  "lastVerificationTime": "2026-07-21T18:58:05.632Z",
+  "metrics": {
+    "duplicateCount": 0,
+    "orphanCount": 0,
+    "financialMismatchCount": 0,
+    "auditGapCount": 0,
+    "totalIssues": 0
+  }
+}

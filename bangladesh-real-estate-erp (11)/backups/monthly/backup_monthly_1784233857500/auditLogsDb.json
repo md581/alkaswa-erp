@@ -1,0 +1,5 @@
+[
+  { "timestamp": "2026-07-14T10:00:00Z", "level": "INFO", "message": "ERP Infrastructure initialization sequence started.", "userId": "SYSTEM" },
+  { "timestamp": "2026-07-14T10:01:00Z", "level": "WARNING", "message": "PostgreSQL connection inactive: DATABASE_URL not set. Falling back to local JSON persistence.", "userId": "SYSTEM" },
+  { "timestamp": "2026-07-14T10:12:00Z", "level": "INFO", "message": "Admin user initialized and logged in.", "userId": "u-01" }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": "inst-01", "bookingId": "b-01", "installmentNumber": 1, "amount": 300000, "dueDate": "2026-07-15T00:00:00Z", "status": "Pending" },
+  { "id": "inst-02", "bookingId": "b-01", "installmentNumber": 2, "amount": 300000, "dueDate": "2026-10-15T00:00:00Z", "status": "Pending" },
+  { "id": "inst-03", "bookingId": "b-02", "installmentNumber": 1, "amount": 875000, "dueDate": "2026-08-01T00:00:00Z", "status": "Pending" }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "port1",
+    "investorId": "inv1",
+    "investmentDate": "2025-01-15",
+    "projectId": "p1",
+    "projectName": "Al Kaswa Uttara Skyline",
+    "projectType": "Construction",
+    "investmentAmount": 15000000,
+    "ownershipPercent": 5.0,
+    "currentValuation": 17250000,
+    "gainLoss": 2250000,
+    "status": "Active"
+  },
+  {
+    "id": "port2",
+    "investorId": "inv1",
+    "investmentDate": "2025-05-10",
+    "projectId": "p2",
+    "projectName": "Al Kaswa Dhanmondi Imperial",
+    "projectType": "Real Estate",
+    "investmentAmount": 20000000,
+    "ownershipPercent": 7.5,
+    "currentValuation": 23000000,
+    "gainLoss": 3000000,
+    "status": "Active"
+  },
+  {
+    "id": "port3",
+    "investorId": "inv1",
+    "investmentDate": "2026-02-18",
+    "projectId": "p3",
+    "projectName": "Al Kaswa Gulshan Serene",
+    "projectType": "Land Project",
+    "investmentAmount": 10000000,
+    "ownershipPercent": 4.2,
+    "currentValuation": 11000000,
+    "gainLoss": 1000000,
+    "status": "Active"
+  }
+]

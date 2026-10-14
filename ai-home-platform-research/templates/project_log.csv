@@ -1,0 +1,2 @@
+project_id,customer_source(facebook/referral/whatsapp/other),area_in_dhaka,room_type,room_size_ft,budget_bdt,price_offered_bdt,paid(yes/no),paid_amount_bdt,intake_date,delivery_date,hours_measurement_check,hours_design,hours_product_sourcing,hours_support,ai_cost_bdt,revisions_count,items_in_list,items_exact_match,items_unavailable_at_purchase,customer_rating_1to5,followup_date,items_actually_bought,actual_spend_bdt,size_mismatch_reported(yes/no),refund(yes/no),complaint_notes,would_recommend(yes/no),consent_for_followup(yes/no)
+J001,,,,,,,,,,,,,,,,,,,,,,,,,,,,
